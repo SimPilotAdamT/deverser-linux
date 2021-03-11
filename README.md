@@ -1,5 +1,5 @@
 # Déverser
-Simple macOS script to dump onboard SHSH with a valid Generator for iOS devices
+Simple GNU/Linux script to dump onboard SHSH with a valid Generator for iOS devices.
 
 ## What is this/What does this do
 
@@ -13,27 +13,38 @@ Déverser is just a small project I made in 2 hours while I was bored, if it's u
 
 ## Requirements
 
-A macOS machine (OS version shouldn't matter as long as img4tool supports it)
+*A machine with a distro with [img4tool](https://github.com/tihmstar/img4tool) and openssh. The following is needed if you don't have img4tool:
+  *Buildsystem
+    *autoconf
+    *automake
+    *libtool
+    *pkg-config
+  *Externel
+    *openssl
+    *[libplist](https://github.com/libimobiledevice/libplist)
+  *Other (but no less important)
+    *[libgeneral](https://github.com/tihmstar/libgeneral)
 
-A jailbroken device with OpenSSH installed (Specific jailbreak doesn't matter, E.G checkra1n, Unc0ver, chimera, etc)
-
-img4tool installed (If img4tool is not installed, the script will download the latest release from Tihmstar's repo and install it after getting the users permission)
+*A jailbroken device with OpenSSH installed (Specific jailbreak doesn't matter, E.G checkra1n, Unc0ver, chimera, etc)
 
 ## Usage
 
-1. Either run 'git clone https://github.com/MatthewPierson/deverser.git' or [download the .zip from here](https://github.com/MatthewPierson/deverser/archive/master.zip) and extract to a folder on your machine
-2. 'cd' to the deverser folder and then run 'chmod +x deverser.sh'
-3. Run './deverser.sh'
-4. Follow what the script asks you to do (Mostly just entering your device's IP address and root password for SSH/SCP)
+1. Run `git clone https://github.com/SimPilotAdamT/deverser-linux.git`, then `cd deverser-linux`.
+2. Run `chmod +x deverser-linux.sh`.
+3. Run `bash ./deverser-linux.sh`.
+4. Follow the on screen instructions.
+5. If nothing has gone wrong, the SHSH2 blobs for the latest version will be in the deverser-linux folder in your filesystem.
 
 ## Issues/Bugs/Fixes/Improvements
 
-If you have any bugs/issues open an issue [here](https://github.com/MatthewPierson/deverser/issues) with details about your macOS machine (OS version, other basic info), iOS device (iOS version, jailbreak, etc) and details about what is not working.
+If you have any bugs/issues open an issue [here](https://github.com/SimPilotAdamT/deverser-linux/issues) with details about your macOS machine (OS version, other basic info), iOS device (iOS version, jailbreak, etc) and details about what is not working.
 
-Any ideas/fixes/improvements can be sent in a pull request [here](https://github.com/MatthewPierson/deverser/pulls).
+Any ideas/fixes/improvements can be sent in a pull request [here](https://github.com/SimPilotAdamT/deverser-linux/pulls).
 
 ## Credits
 
-Matty (Me) - [@mosk_i](https://twitter.com/moski_dev) - For writing the script
+Adam (Me) - (No Twitter acc yet ;-;) - For modifying Matty's script to work on GNU/Linux
+
+Matty - [@mosk_i](https://twitter.com/moski_dev) - For writing the original script for MacOS
 
 Tihmstar - [@tihmstar](https://twitter.com/tihmstar) - For creating img4tool
