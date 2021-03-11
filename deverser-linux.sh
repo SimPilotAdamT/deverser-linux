@@ -60,5 +60,5 @@ mv dumped.shsh ${ecid}.dumped.shsh # Allows multiple devices to be dumped as eac
 generator=$(cat ${ecid}.dumped.shsh | grep "<string>0x" | cut -c10-27)
 echo "[!] SHSH should be dumped successfully at '${ecid}.dumped.shsh' (The number in the filename is your devices ECID)!"
 echo "[!] Your Generator for the dumped SHSH is: ${generator}"
-echo "[@] Written by Matty (@mosk_i) and Adam (No Twitter acc yet ;-;) - Enjoy!"
+echo "[@] Written by Matty (@moski_dev) and Adam (No Twitter acc yet ;-;) - Enjoy!"
 echo ""
