@@ -33,7 +33,7 @@ Déverser is just a small project I made in 2 hours while I was bored, if it's u
 2. Run `chmod +x deverser-linux.sh`.
 3. Run `bash ./deverser-linux.sh`.
 4. Follow the on screen instructions.
-5. If nothing has gone wrong, the SHSH2 blobs for the latest version will be in the deverser-linux folder in your filesystem.
+5. If nothing has gone wrong, the SHSH2 blobs for the latest version of iOS will be in the deverser-linux folder in your filesystem.
 
 ## Issues/Bugs/Fixes/Improvements
 
