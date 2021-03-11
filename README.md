@@ -13,19 +13,19 @@ Déverser is just a small project I made in 2 hours while I was bored, if it's u
 
 ## Requirements
 
-*A machine with a distro with [img4tool](https://github.com/tihmstar/img4tool) and openssh. The following is needed if you don't have img4tool:
-  *Buildsystem
-    *autoconf
-    *automake
-    *libtool
-    *pkg-config
-  *Externel
-    *openssl
-    *[libplist](https://github.com/libimobiledevice/libplist)
-  *Other (but no less important)
-    *[libgeneral](https://github.com/tihmstar/libgeneral)
+* A machine with a distro with [img4tool](https://github.com/tihmstar/img4tool) and openssh. The following is needed if you don't have img4tool:
+  * Buildsystem
+    * autoconf
+    * automake
+    * libtool
+    * pkg-config
+  * Externel
+    * openssl
+    * [libplist](https://github.com/libimobiledevice/libplist)
+  * Other (but no less important)
+    * [libgeneral](https://github.com/tihmstar/libgeneral)
 
-*A jailbroken device with OpenSSH installed (Specific jailbreak doesn't matter, E.G checkra1n, Unc0ver, chimera, etc)
+* A jailbroken device with OpenSSH installed (Specific jailbreak doesn't matter, E.G checkra1n, Unc0ver, chimera, etc)
 
 ## Usage
 
