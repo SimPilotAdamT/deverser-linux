@@ -13,7 +13,7 @@ Déverser is just a small project I made in 2 hours while I was bored, if it's u
 
 ## Requirements
 
-* A machine with a distro with [img4tool](https://github.com/tihmstar/img4tool) and openssh. The following is needed if you don't have img4tool:
+* A machine with a distro with [img4tool](https://github.com/tihmstar/img4tool) and openssh. The following is needed if you don't have img4tool and you want Déverser to automatically install img4tool:
   * Buildsystem
     * autoconf
     * automake
