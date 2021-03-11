@@ -45,6 +45,6 @@ Any ideas/fixes/improvements can be sent in a pull request [here](https://github
 
 Adam (Me) - (No Twitter acc yet ;-;) - For modifying Matty's script to work on GNU/Linux
 
-Matty - [@mosk_i](https://twitter.com/moski_dev) - For writing the original script for MacOS
+Matty - [@moski_dev](https://twitter.com/moski_dev) - For writing the original script for MacOS
 
 Tihmstar - [@tihmstar](https://twitter.com/tihmstar) - For creating img4tool
