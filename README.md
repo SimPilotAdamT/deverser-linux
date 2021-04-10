@@ -37,7 +37,7 @@ Déverser is just a small project I made in 2 hours while I was bored, if it's u
 
 ## Issues/Bugs/Fixes/Improvements
 
-If you have any bugs/issues open an issue [here](https://github.com/SimPilotAdamT/deverser-linux/issues) with details about your macOS machine (OS version, other basic info), iOS device (iOS version, jailbreak, etc) and details about what is not working.
+If you have any bugs/issues open an issue [here](https://github.com/SimPilotAdamT/deverser-linux/issues) with details about your computer (distro, harware, other basic info), iOS device (iOS version, jailbreak, etc) and details about what is not working.
 
 Any ideas/fixes/improvements can be sent in a pull request [here](https://github.com/SimPilotAdamT/deverser-linux/pulls).
 
